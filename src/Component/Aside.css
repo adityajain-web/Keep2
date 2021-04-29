@@ -1,0 +1,44 @@
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem 1.25rem 1.25rem 0;
+}
+
+.card .card-body ul li {
+  margin: 0.1rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: #59595a;
+  position: relative;
+  border-radius: 0 1.563rem 1.563rem 0;
+}
+
+.card .card-body ul li:hover {
+  background-color: #423e3ebb;
+}
+
+.card .card-body ul li.active {
+  background-color: #41331c;
+}
+
+.card .card-body ul li .list-text {
+  margin-left: 1.7rem;
+  position: relative;
+  bottom: 0.3rem;
+  color: #fff;
+}

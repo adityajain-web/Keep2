@@ -1,0 +1,116 @@
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding: 1rem 0;
+}
+
+.card .card-header #tab {
+  border-bottom: 2px solid #5f6368;
+  padding-bottom: 0.5rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem 1.25rem 1.25rem 0;
+}
+
+.d-md-none {
+  display: none;
+}
+
+.form-group {
+  margin: 1rem 0;
+  position: relative;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 1rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #5f6368;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+}
+
+.form-control:focus {
+  background-color: transparent;
+}
+
+.card-header button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.2rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 0.1rem 0.2rem 0 0.2rem;
+  background-color: #2f3031;
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.card .card-body .list-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
+
+.card .card-body .list-group li {
+  border: 1px solid #5f6368;
+}
+
+.card .card-body .list-group li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.card .card-body .list-group li div .deleteBtn,
+.card .card-body .list-group li div .CheckBtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 0 0.5rem;
+}
+
+.card .card-body .list-group li div .deleteBtn {
+  color: crimson;
+}
+
+.card .card-body .list-group li div .CheckBtn svg {
+  color: green;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 576px) {
+  .d-block {
+    display: block;
+  }
+}

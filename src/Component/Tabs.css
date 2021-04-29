@@ -1,0 +1,25 @@
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.justify-content-around {
+  -ms-flex-pack: space-around !important;
+  justify-content: space-around !important;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.card .card-header ul li {
+  padding: 0.4rem;
+  margin-left: 0.2rem;
+  border-radius: 0.2rem;
+  color: #fff;
+}
+
+.card .card-header ul li.active {
+  background-color: #41331c;
+}
